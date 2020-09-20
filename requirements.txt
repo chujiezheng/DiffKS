@@ -1,0 +1,5 @@
+torch>=1.1
+tqdm
+cotk==0.0.1
+numpy
+nltk
