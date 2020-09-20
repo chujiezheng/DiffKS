@@ -33,18 +33,19 @@ for key, name in zip(file_names, save_names):
     json.dump(total_data, open('./Wizard-of-Wikipedia/prepared_data/%s.json' % name, 'w'), indent=4, ensure_ascii=False, sort_keys=True)
 
 
-with open('dev.json', 'w') as f:
-    data = json.load(open('valid_random_split.json')) + json.load(open('valid_topic_split.json'))
+with open('./Wizard-of-Wikipedia/prepared_data/dev.json', 'w') as f:
+    data = json.load(open('./Wizard-of-Wikipedia/prepared_data/valid_random_split.json')) + \
+        json.load(open('./Wizard-of-Wikipedia/prepared_data/valid_topic_split.json'))
     json.dump(data, f, ensure_ascii=False, indent=4)
     #os.remove('valid_random_split.json')
     #os.remove('valid_topic_split.json')
 
-with open('test_seen.json', 'w') as f:
-    data = json.load(open('test_random_split.json'))
+with open('./Wizard-of-Wikipedia/prepared_data/test_seen.json', 'w') as f:
+    data = json.load(open('./Wizard-of-Wikipedia/prepared_data/test_random_split.json'))
     json.dump(data, f, ensure_ascii=False, indent=4)
     #os.remove('test_random_split.json')
     
-with open('test_unseen.json', 'w') as f:
-    data = json.load(open('test_topic_split.json'))
+with open('./Wizard-of-Wikipedia/prepared_data/test_unseen.json', 'w') as f:
+    data = json.load(open('./Wizard-of-Wikipedia/prepared_data/test_topic_split.json'))
     json.dump(data, f, ensure_ascii=False, indent=4)
     #os.remove('test_topic_split.json')
