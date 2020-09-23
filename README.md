@@ -1,6 +1,6 @@
 # DiffKS: Difference-aware Knowledge Selection
 
-Codes for the paper: **Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generation**
+Codes for the paper: [**Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generation**](https://arxiv.org/abs/2009.09378)
 
 Please cite this repository using the following reference:
 
