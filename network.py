@@ -433,8 +433,6 @@ class ConnectLayer(nn.Module):
         self.beta = torch.sum(valid_wiki_h_n1 * incoming.hidden.h_n, dim = 2)
         self.beta = torch.t(self.beta) # [valid_num, wiki_len]
         
-        incoming.acc.rel.append(torch.index_select(self.beta, 0, incoming.state.reverse_valid_sen).cpu().tolist())
-
         mask = torch.arange(self.beta.shape[1], device=self.beta.device).long().expand(self.beta.shape[0], self.beta.shape[1]).transpose(0, 1)  # [wiki_sen_num, valid_num]
         expand_wiki_num = valid_wiki_num.unsqueeze(0).expand_as(mask)  # [wiki_sen_num, valid_num]
         reverse_mask = (expand_wiki_num <= mask).float()  # [wiki_sen_num, valid_num]
