@@ -2,6 +2,8 @@
 
 Codes for the paper: [**Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generation**](https://arxiv.org/abs/2009.09378)
 
+If you have any problem or suggestion, feel free to contact me: chujiezhengchn@gmail.com
+
 Please cite this repository using the following reference:
 
 ```bib
