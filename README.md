@@ -24,7 +24,7 @@ See `requirements.txt`.
 
 ## Prepare Data
 
-Download the [Wizard of Wikipedia](https://drive.google.com/drive/folders/1eowwYSfJKaDtYgKHZVqh8alNmqP3jv9A?usp=sharing) dataset (downloaded using [Parlai](https://github.com/facebookresearch/ParlAI), please refer to the [Sequential Latent Knowledge Selection](https://github.com/bckim92/sequential-knowledge-transformer) for the download details) and put the files in the folder `./Wizard-of-Wikipedia`, or download the [Holl-E](https://drive.google.com/drive/folders/1xQBRDs5q_2xLOdOpbq7UeAmUM0Ht370A?usp=sharing) dataset and put the files in the folder `./Holl-E`.
+Download the [Wizard of Wikipedia](https://1drv.ms/u/s!Aky8v8NZbQx1qj8xxqkdpzcSdTkd?e=8EzgBB) dataset (downloaded using [Parlai](https://github.com/facebookresearch/ParlAI), please refer to the [Sequential Latent Knowledge Selection](https://github.com/bckim92/sequential-knowledge-transformer) for the download details) and put the files in the folder `./Wizard-of-Wikipedia`, or download the [Holl-E](https://drive.google.com/drive/folders/1xQBRDs5q_2xLOdOpbq7UeAmUM0Ht370A?usp=sharing) dataset and put the files in the folder `./Holl-E`.
 
 For Wizard of Wikipedia (WoW):
 
