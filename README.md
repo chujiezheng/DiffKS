@@ -7,7 +7,7 @@ If you have any problem or suggestion, feel free to contact me: chujiezhengchn@g
 Please cite this repository using the following reference:
 
 ```bib
-@inproceedings{diffks-zheng-2020,
+@inproceedings{zheng-etal-2020-diffks,
   title="{D}ifference-aware Knowledge Selection for Knowledge-grounded Conversation Generation",
   author="Zheng, Chujie  and
       Cao, Yunbo  and
